@@ -1,0 +1,244 @@
+rewards:
+  - id: wood1
+    name:
+    material: OAK_LOG
+    chance: 10
+    amount: 64
+
+  - id: cobble2
+    name:
+    material: COBBLESTONE
+    chance: 10
+    amount: 64
+
+  - id: wool3
+    name:
+    material: WHITE_WOOL
+    chance: 10
+    amount: 64
+
+  - id: chicken4
+    name:
+    material: COOKED_CHICKEN
+    chance: 10
+    amount: 32
+
+  - id: carrot5
+    name:
+    material: GOLDEN_CARROT
+    chance: 8
+    amount: 16
+
+
+  - id: leather6
+    name:
+    material: LEATHER
+    chance: 8
+    amount: 16
+
+
+
+  - id: golden7
+    name:
+    material: GOLDEN_APPLE
+    chance: 6
+    amount: 4
+
+  - id: wither8
+    name:
+    material: WITHER_SKELETON_SKULL
+    chance: 6
+    amount: 1
+
+
+  - id: shulker9
+    name:
+    material: SHULKER_BOX
+    chance: 2
+    amount: 1
+
+
+  - id: ancient10
+    name:
+    material: ANCIENT_DEBRIS
+    chance: 2
+    amount: 1
+
+  - id: enchanting11
+    name:
+    material: ENCHANTING_TABLE
+    chance: 2
+    amount: 1
+
+  - id: coal12
+    name:
+    material: COAL
+    chance: 8
+    amount: 64
+
+  - id: redstone13
+    name:
+    material: REDSTONE
+    chance: 6
+    amount: 32
+
+  - id: iron14
+    name:
+    material: IRON_INGOT
+    chance: 7
+    amount: 16
+
+  - id: diamond15
+    name:
+    material: DIAMOND
+    chance: 3
+    amount: 8
+
+  - id: netherite16
+    name:
+    material: NETHERITE_INGOT
+    chance: 2
+    amount: 1
+
+  - id: lapis17
+    name:
+    material: LAPIS_BLOCK
+    chance: 4
+    amount: 8
+
+  - id: lapis18
+    name:
+    material: EMERALD_BLOCK
+    chance: 3
+    amount: 4
+
+  - id: blaze19
+    name:
+    material: BLAZE_ROD
+    chance: 2
+    amount: 4
+
+  - id: rare20
+    name: "§6Casque Légendaire"
+    material: NETHERITE_HELMET
+    lore:
+      - "§7Résistant comme Gorlock The Destroyer."
+    chance: 1
+    amount: 1
+    enchantments:
+      VANISHING_CURSE: 1
+      BINDING_CURSE: 1
+      PROTECTION: 4
+      RESPIRATION: 3
+      AQUA_AFFINITY: 1
+      THORNS: 3
+      UNBREAKING: 3
+      MENDING: 1
+
+  - id: rare21
+    name: "§6Epée Légendaire"
+    material: NETHERITE_SWORD
+    lore:
+      - "§7Tranchante pas comme les remarques de Sylvain."
+    chance: 1
+    amount: 1
+    enchantments:
+      VANISHING_CURSE: 1
+      SHARPNESS: 5
+      SWEEPING_EDGE: 3
+      FIRE_ASPECT: 2
+      LOOTING: 3
+      UNBREAKING: 3
+      MENDING: 1
+
+  - id: sword22
+    name:
+    material: IRON_SWORD
+    chance: 6
+    amount: 1
+    enchantments:
+      SHARPNESS: 3
+      UNBREAKING: 2
+
+  - id: sword23
+    name:
+    material: DIAMOND_SWORD
+    chance: 5
+    amount: 1
+    enchantments:
+      SHARPNESS: 3
+      UNBREAKING: 2
+
+  - id: sword24
+    name:
+    material: NETHERITE_SWORD
+    chance: 4
+    amount: 1
+    enchantments:
+      SHARPNESS: 3
+      UNBREAKING: 2
+
+  - id: pick25
+    name:
+    material: IRON_PICKAXE
+    chance: 6
+    amount: 1
+    enchantments:
+      EFFICIENCY: 3
+      UNBREAKING: 2
+
+  - id: pick26
+    name:
+    material: DIAMOND_PICKAXE
+    chance: 5
+    amount: 1
+    enchantments:
+      EFFICIENCY: 3
+      UNBREAKING: 2
+
+  - id: pick27
+    name:
+    material: NETHERITE_PICKAXE
+    chance: 4
+    amount: 1
+    enchantments:
+      EFFICIENCY: 3
+      UNBREAKING: 2
+      VANISHING_CURSE: 1
+
+  - id: axe28
+    name:
+    material: IRON_AXE
+    chance: 6
+    amount: 1
+
+  - id: axe29
+    name:
+    material: DIAMOND_AXE
+    chance: 5
+    amount: 1
+
+  - id: axe30
+    name:
+    material: NETHERITE_AXE
+    chance: 4
+    amount: 1
+
+  - id: shov31
+    name:
+    material: IRON_SHOVEL
+    chance: 6
+    amount: 1
+
+  - id: shov32
+    name:
+    material: DIAMOND_SHOVEL
+    chance: 5
+    amount: 1
+
+  - id: shov33
+    name:
+    material: NETHERITE_SHOVEL
+    chance: 4
+    amount: 1
+

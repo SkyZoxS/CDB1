@@ -1,0 +1,35 @@
+name: CDB
+version: '1.0-SNAPSHOT'
+main: fr.skyzoxs.main.Main
+api-version: '1.21'
+commands:
+
+  resetspin:
+    description: Réinitialise le timer de la roulette pour le joueur concerné.
+    usage: /resetspin <Joueur>
+    permission: spin.admin
+
+  teamcreate:
+    description: Crée une équipe.
+    usage: /teamcreate <NomEquipe> <Couleur> <Joueur1> <Joueur2> ...
+    permission: team.admin
+
+  teamdelete:
+    description: Supprime une équipe.
+    usage: /teamdelete <NomEquipe>
+    permission: team.admin
+
+  teamlist:
+    description: Affiche la liste de toutes les équipes.
+    usage: /teamlist
+    permission: team.admin
+
+  teamreveal:
+    description: Révèle les points.
+    usage: /teamreveal true/false
+    permission: team.admin
+
+  teampvp:
+    description: Active/Désactive le pvp des joueurs dans la même équipe.
+    usage: /teampvp true/false
+    permission: team.admin
