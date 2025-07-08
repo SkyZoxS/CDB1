@@ -17,7 +17,7 @@ public class DecoratorVillager extends PointsTraderVillager {
 
         // 2e ligne.
         this.materials.put(
-                11, new Product(Material.SEA_LANTERN.name(), Material.SEA_LANTERN, DecoratorVillager.BEST_PRICE, PointsTraderVillager.STACK, 0, 0)
+                11, new Product(Material.SEA_LANTERN.name(), Material.SEA_LANTERN, DecoratorVillager.GOOD_PRICE, PointsTraderVillager.STACK, 0, 0)
         );
         this.materials.put(
                 12, new Product(Material.OCHRE_FROGLIGHT.name(), Material.OCHRE_FROGLIGHT, DecoratorVillager.GOOD_PRICE, PointsTraderVillager.STACK, 0,0)
@@ -84,7 +84,7 @@ public class DecoratorVillager extends PointsTraderVillager {
 
         Product glass = new Product(
                 Material.GLASS.name(), Material.GLASS,
-                DecoratorVillager.SMALL_PRICE, PointsTraderVillager.STACK, 0, 0
+                DecoratorVillager.GOOD_PRICE, PointsTraderVillager.STACK, 0, 0
         );
         glass.addAnAcceptedMaterial(Material.WHITE_STAINED_GLASS);
         glass.addAnAcceptedMaterial(Material.LIGHT_GRAY_STAINED_GLASS);

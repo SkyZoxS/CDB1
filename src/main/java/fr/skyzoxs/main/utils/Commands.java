@@ -1,28 +1,28 @@
-package fr.skyzoxs.main.Team;
+package fr.skyzoxs.main.utils;
 
 import fr.skyzoxs.main.Points.PointsScoreboard;
+import fr.skyzoxs.main.Team.TeamManager;
+import fr.skyzoxs.main.Team.TeamPvpListener;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
-import org.bukkit.persistence.PersistentDataType;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.*;
 
-public class TeamCommands implements CommandExecutor {
+public class Commands implements CommandExecutor {
 
     private final TeamManager teamManager;
     private final TeamPvpListener teamPvpListener;
     private JavaPlugin plugin;
 
-    public TeamCommands(JavaPlugin plugin, TeamManager teamManager, TeamPvpListener teamPvpListener) {
+    public Commands(JavaPlugin plugin, TeamManager teamManager, TeamPvpListener teamPvpListener) {
         this.teamManager = teamManager;
         this.teamPvpListener = teamPvpListener;
         this.plugin = plugin;
@@ -31,6 +31,7 @@ public class TeamCommands implements CommandExecutor {
         plugin.getCommand("teamlist").setExecutor(this);
         plugin.getCommand("teamreveal").setExecutor(this);
         plugin.getCommand("teampvp").setExecutor(this);
+        plugin.getCommand("givecd").setExecutor(this);
     }
 
     @Override
@@ -57,7 +58,28 @@ public class TeamCommands implements CommandExecutor {
             return handleTeamPvp(sender, args);
         }
 
+        if(command.getName().equalsIgnoreCase("givecd")) {
+            return handleGiveCd(sender, args);
+
+        }
+
         return false;
+    }
+
+    private boolean handleGiveCd(CommandSender sender, String[] args) {
+        if (!(sender instanceof Player player)) {
+            sender.sendMessage("Seul un joueur peut exécuter cette commande.");
+            return true;
+        }
+
+        ItemStack disc = new ItemStack(Material.MUSIC_DISC_13);
+        ItemMeta meta = disc.getItemMeta();
+        meta.setDisplayName("Disque du Son");
+        disc.setItemMeta(meta);
+
+        player.getInventory().addItem(disc);
+        player.sendMessage(ChatColor.GREEN + "Disque du Son donné !");
+        return true;
     }
 
     private boolean handleTeamReveal(CommandSender sender, String[] args) {

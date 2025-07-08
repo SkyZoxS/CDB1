@@ -6,6 +6,8 @@ public class PointsV {
     public static final int MAX_MODIFICATIONS = 5;
     public static final double PERCENT_REMOVED_BY_LEVEL = 10.0;
 
+    private static final int TRADER_THRESHOLD = 100000;
+
     private final int NUMBER_NEEDS_REFRESH = 10;
     private final int INITIAL_POINTS_GIVEN;
     private int points_given;

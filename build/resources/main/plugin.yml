@@ -33,3 +33,7 @@ commands:
     description: Active/Désactive le pvp des joueurs dans la même équipe.
     usage: /teampvp true/false
     permission: team.admin
+  givecd:
+    description: Donne le disque du son
+    usage: /givecd
+    permission: team.admin

@@ -27,15 +27,15 @@ public class BasicBlocksVillager extends PointsTraderVillager {
         );
         this.materials.put(
                 5,
-                new Product(Material.GRANITE.name(), Material.GRANITE, BasicBlocksVillager.DUPLICABLE, PointsTraderVillager.STACK, 0, 0)
+                new Product(Material.GRANITE.name(), Material.GRANITE, BasicBlocksVillager.NON_SILK_TOUCH, PointsTraderVillager.STACK, 0, 0)
         );
         this.materials.put(
                 6,
-                new Product(Material.DIORITE.name(), Material.DIORITE, BasicBlocksVillager.DUPLICABLE, PointsTraderVillager.STACK, 0, 0)
+                new Product(Material.DIORITE.name(), Material.DIORITE, BasicBlocksVillager.NON_SILK_TOUCH, PointsTraderVillager.STACK, 0, 0)
         );
         this.materials.put(
                 7,
-                new Product(Material.ANDESITE.name(), Material.ANDESITE, BasicBlocksVillager.DUPLICABLE, PointsTraderVillager.STACK, 0, 0)
+                new Product(Material.ANDESITE.name(), Material.ANDESITE, BasicBlocksVillager.NON_SILK_TOUCH, PointsTraderVillager.STACK, 0, 0)
         );
 
         // Second line.
@@ -77,7 +77,7 @@ public class BasicBlocksVillager extends PointsTraderVillager {
         // Fourth line.
         this.materials.put(
                 30,
-                new Product(Material.CLAY.name(), Material.CLAY, BasicBlocksVillager.DUPLICABLE, PointsTraderVillager.STACK, 0, 0)
+                new Product(Material.CLAY.name(), Material.CLAY, BasicBlocksVillager.NON_SILK_TOUCH, PointsTraderVillager.STACK, 0, 0)
         );
         this.materials.put(
                 32,

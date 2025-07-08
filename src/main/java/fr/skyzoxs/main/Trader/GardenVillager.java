@@ -5,6 +5,7 @@ import org.bukkit.Material;
 
 public class GardenVillager extends PointsTraderVillager {
 
+    public static final int DUPLICATE_MATERIAL = 100;
     public static final int CHEAP_FLOWER_PRICE = 100;
     public static final int COMMON_VEGETABLE_PRICE = 200;
     public static final int UNCOMMON_VEGETABLE_PRICE = 300;
@@ -82,7 +83,7 @@ public class GardenVillager extends PointsTraderVillager {
         // Fourth line.
         this.materials.put(
                 30,
-                new Product(Material.MOSS_BLOCK.name(), Material.MOSS_BLOCK, GardenVillager.COMMON_VEGETABLE_PRICE, PointsTraderVillager.STACK, 0, 0)
+                new Product(Material.MOSS_BLOCK.name(), Material.MOSS_BLOCK, GardenVillager.DUPLICATE_MATERIAL, PointsTraderVillager.STACK, 0, 0)
         );
         this.materials.put(
                 31,
@@ -100,13 +101,13 @@ public class GardenVillager extends PointsTraderVillager {
         );
         this.materials.put(
                 42,
-                new Product(Material.FLOWERING_AZALEA.name(), Material.FLOWERING_AZALEA, GardenVillager.RARE_VEGETABLE_PRICE, PointsTraderVillager.TINY_STACK, 0, 0)
+                new Product(Material.FLOWERING_AZALEA.name(), Material.FLOWERING_AZALEA, GardenVillager.UNCOMMON_VEGETABLE_PRICE, PointsTraderVillager.TINY_STACK, 0, 0)
         );
 
         // Sixth line.
         this.materials.put(
                 48,
-                new Product(Material.WITHER_ROSE.name(), Material.WITHER_ROSE, GardenVillager.UNCOMMON_VEGETABLE_PRICE, PointsTraderVillager.TINY_STACK, 0, 0)
+                new Product(Material.WITHER_ROSE.name(), Material.WITHER_ROSE, GardenVillager.RARE_VEGETABLE_PRICE, PointsTraderVillager.TINY_STACK, 0, 0)
         );
 
         this.materials.put(

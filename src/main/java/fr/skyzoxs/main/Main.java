@@ -6,11 +6,13 @@ import fr.skyzoxs.main.Points.*;
 import fr.skyzoxs.main.Product.*;
 import fr.skyzoxs.main.SpinVillager.*;
 import fr.skyzoxs.main.SpinVillager.reward.RewardManager;
-import fr.skyzoxs.main.Team.TeamCommands;
+import fr.skyzoxs.main.utils.BlockListener;
+import fr.skyzoxs.main.utils.Commands;
 import fr.skyzoxs.main.Team.TeamManager;
 import fr.skyzoxs.main.Team.TeamPvpListener;
 import fr.skyzoxs.main.Trader.*;
 import fr.skyzoxs.main.utils.Join;
+import fr.skyzoxs.main.utils.Shrekphone;
 import org.bukkit.*;
 import org.bukkit.entity.*;
 import org.bukkit.event.*;
@@ -76,6 +78,10 @@ public final class Main extends JavaPlugin implements Listener {
 
         // Listeners
         getServer().getPluginManager().registerEvents(new FoodListener(this), this);
+        getServer().getPluginManager().registerEvents(new Shrekphone(), this);
+        getServer().getPluginManager().registerEvents(new BlockListener(), this);
+
+
 
         // Trader locations
         Map<String, Location> traderLocations = Map.ofEntries(
@@ -144,7 +150,7 @@ public final class Main extends JavaPlugin implements Listener {
         getCommand("resetspin").setExecutor(new ResetSpin(spinData));
         TeamManager teamManager = new TeamManager(this);
         TeamPvpListener pvpListener = new TeamPvpListener(teamManager);
-        new TeamCommands(this, teamManager, pvpListener);
+        new Commands(this, teamManager, pvpListener);
 
         // Events généraux
         Bukkit.getPluginManager().registerEvents(new Shop(traders), this);
@@ -162,6 +168,8 @@ public final class Main extends JavaPlugin implements Listener {
                 ShowGrade.setPlayerPointsGrade(player, globalContri);
             }
         }, 0L, 20L);
+        saveDefaultConfig();
+
     }
 
     @Override

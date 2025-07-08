@@ -5,6 +5,7 @@ import fr.skyzoxs.main.Product.Product;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.OfflinePlayer;
+import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.inventory.meta.SkullMeta;
@@ -13,20 +14,23 @@ import java.util.List;
 
 public class HeadVillager extends PointsTraderVillager{
 
-    private static final int HIGHEST_PRICE = 1000;
     private static final int LOWEST_PRICES = 100;
+    private static final int ALMOST_LOWEST_PRICES = LOWEST_PRICES * 5;
+    private static final int STARTER_PRICES = LOWEST_PRICES * 10;
+    private static final int MIDDLE_PRICES = STARTER_PRICES * 5;
+    private static final int HIGHEST_PRICE = STARTER_PRICES * 10;
 
     public HeadVillager(String id, String name) {
         super(id, name, 27);
 
         this.materials.put(
                 1,
-                new PlayerHeadProduct("NoixDeCocoBlanc", HIGHEST_PRICE, PointsTraderVillager.UNIQUE)
+                new PlayerHeadProduct("NoixDeCocoBlanc", MIDDLE_PRICES, PointsTraderVillager.UNIQUE)
         );
 
         this.materials.put(
                 3,
-                new PlayerHeadProduct("TheInf3ct3d", HIGHEST_PRICE, PointsTraderVillager.UNIQUE)
+                new PlayerHeadProduct("TheInf3ct3d", MIDDLE_PRICES, PointsTraderVillager.UNIQUE)
         );
 
         this.materials.put(
@@ -36,17 +40,17 @@ public class HeadVillager extends PointsTraderVillager{
 
         this.materials.put(
                 7,
-                new PlayerHeadProduct("Redy_Lovy", HIGHEST_PRICE, PointsTraderVillager.UNIQUE)
+                new PlayerHeadProduct("Redy_Lovy", ALMOST_LOWEST_PRICES, PointsTraderVillager.UNIQUE)
         );
 
         this.materials.put(
                 9,
-                new PlayerHeadProduct("Oclapse", HIGHEST_PRICE, PointsTraderVillager.UNIQUE)
+                new PlayerHeadProduct("Oclapse", STARTER_PRICES, PointsTraderVillager.UNIQUE)
         );
 
         this.materials.put(
                 11,
-                new PlayerHeadProduct("1uREM", HIGHEST_PRICE, PointsTraderVillager.UNIQUE)
+                new PlayerHeadProduct("1uREM", STARTER_PRICES, PointsTraderVillager.UNIQUE)
         );
 
         this.materials.put(

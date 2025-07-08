@@ -38,7 +38,7 @@ public class HostileLootVillager extends PointsTraderVillager {
         // Second line.
         this.materials.put(
                 11,
-                new Product(Material.SLIME_BALL.name(), Material.SLIME_BALL, HostileLootVillager.CHEAP_LOOT, PointsTraderVillager.STACK, 0, 0)
+                new Product(Material.SLIME_BALL.name(), Material.SLIME_BALL, HostileLootVillager.ALMOST_COMMON_LOOT, PointsTraderVillager.STACK, 0, 0)
         );
         this.materials.put(
                 13,
@@ -52,7 +52,7 @@ public class HostileLootVillager extends PointsTraderVillager {
         // Third line.
         this.materials.put(
                 21,
-                new Product(Material.MAGMA_CREAM.name(), Material.MAGMA_CREAM, HostileLootVillager.CHEAP_LOOT, PointsTraderVillager.STACK, 0, 0)
+                new Product(Material.MAGMA_CREAM.name(), Material.MAGMA_CREAM, HostileLootVillager.ALMOST_COMMON_LOOT, PointsTraderVillager.STACK, 0, 0)
         );
         this.materials.put(
                 23,

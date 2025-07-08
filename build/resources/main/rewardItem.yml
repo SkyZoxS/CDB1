@@ -1,37 +1,37 @@
 rewards:
   - id: wood1
-    name:
+    name: "Oak Log"
     material: OAK_LOG
     chance: 10
     amount: 64
 
   - id: cobble2
-    name:
+    name: "Cobblestone"
     material: COBBLESTONE
     chance: 10
     amount: 64
 
   - id: wool3
-    name:
+    name: "White wool"
     material: WHITE_WOOL
     chance: 10
     amount: 64
 
   - id: chicken4
-    name:
+    name: "Cooked Chicken"
     material: COOKED_CHICKEN
     chance: 10
     amount: 32
 
   - id: carrot5
-    name:
+    name: "Golden Carrot"
     material: GOLDEN_CARROT
     chance: 8
     amount: 16
 
 
   - id: leather6
-    name:
+    name: "Leather"
     material: LEATHER
     chance: 8
     amount: 16
@@ -39,81 +39,81 @@ rewards:
 
 
   - id: golden7
-    name:
+    name: "Golden Apple"
     material: GOLDEN_APPLE
     chance: 6
     amount: 4
 
   - id: wither8
-    name:
+    name: "Wither Skeleton Skull"
     material: WITHER_SKELETON_SKULL
     chance: 6
     amount: 1
 
 
   - id: shulker9
-    name:
+    name: "Shulker Box"
     material: SHULKER_BOX
     chance: 2
     amount: 1
 
 
   - id: ancient10
-    name:
+    name: "Ancient Debris"
     material: ANCIENT_DEBRIS
     chance: 2
     amount: 1
 
   - id: enchanting11
-    name:
+    name: "Enchanting Table"
     material: ENCHANTING_TABLE
     chance: 2
     amount: 1
 
   - id: coal12
-    name:
+    name: "Coal"
     material: COAL
     chance: 8
     amount: 64
 
   - id: redstone13
-    name:
+    name: "Redstone"
     material: REDSTONE
     chance: 6
     amount: 32
 
   - id: iron14
-    name:
+    name: "Iron Ingot"
     material: IRON_INGOT
     chance: 7
     amount: 16
 
   - id: diamond15
-    name:
+    name: "Diamond"
     material: DIAMOND
     chance: 3
     amount: 8
 
   - id: netherite16
-    name:
+    name: "Netherite Ingot"
     material: NETHERITE_INGOT
     chance: 2
     amount: 1
 
   - id: lapis17
-    name:
+    name: "Block of Lapis Lazuli"
     material: LAPIS_BLOCK
     chance: 4
     amount: 8
 
   - id: lapis18
-    name:
+    name: "Block of Emerald"
     material: EMERALD_BLOCK
     chance: 3
     amount: 4
 
   - id: blaze19
-    name:
+    name: "Blaze Rod"
     material: BLAZE_ROD
     chance: 2
     amount: 4
@@ -152,7 +152,7 @@ rewards:
       MENDING: 1
 
   - id: sword22
-    name:
+    name: "Iron Sword"
     material: IRON_SWORD
     chance: 6
     amount: 1
@@ -161,7 +161,7 @@ rewards:
       UNBREAKING: 2
 
   - id: sword23
-    name:
+    name: "Diamond Sword"
     material: DIAMOND_SWORD
     chance: 5
     amount: 1
@@ -170,7 +170,7 @@ rewards:
       UNBREAKING: 2
 
   - id: sword24
-    name:
+    name: "Netherite Sword"
     material: NETHERITE_SWORD
     chance: 4
     amount: 1
@@ -179,7 +179,7 @@ rewards:
       UNBREAKING: 2
 
   - id: pick25
-    name:
+    name: "Iron Pickaxe"
     material: IRON_PICKAXE
     chance: 6
     amount: 1
@@ -188,7 +188,7 @@ rewards:
       UNBREAKING: 2
 
   - id: pick26
-    name:
+    name: "Diamond Pickaxe"
     material: DIAMOND_PICKAXE
     chance: 5
     amount: 1
@@ -197,7 +197,7 @@ rewards:
       UNBREAKING: 2
 
   - id: pick27
-    name:
+    name: "Netherite Pickaxe"
     material: NETHERITE_PICKAXE
     chance: 4
     amount: 1
@@ -207,37 +207,37 @@ rewards:
       VANISHING_CURSE: 1
 
   - id: axe28
-    name:
+    name: "Iron Axe"
     material: IRON_AXE
     chance: 6
     amount: 1
 
   - id: axe29
-    name:
+    name: "Diamond Axe"
     material: DIAMOND_AXE
     chance: 5
     amount: 1
 
   - id: axe30
-    name:
+    name: "Netherite Axe"
     material: NETHERITE_AXE
     chance: 4
     amount: 1
 
   - id: shov31
-    name:
+    name: "Iron Shovel"
     material: IRON_SHOVEL
     chance: 6
     amount: 1
 
   - id: shov32
-    name:
+    name: "Diamond Shovel"
     material: DIAMOND_SHOVEL
     chance: 5
     amount: 1
 
   - id: shov33
-    name:
+    name: "Netherite Shovel"
     material: NETHERITE_SHOVEL
     chance: 4
     amount: 1
